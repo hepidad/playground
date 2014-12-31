@@ -6,3 +6,6 @@ The Place where I could found some peace.
 - [Coderbyte](http://coderbyte.com/)
 - [Codekata](http://codekata.com/)
 
+##Understanding Bayesian
+[For Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+
