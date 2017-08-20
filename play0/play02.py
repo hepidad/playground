@@ -8,3 +8,5 @@ try:
         print row
 finally:
     dream.close()
+
+    
