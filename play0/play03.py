@@ -1,5 +1,4 @@
-from petl import fromcsv, look, cut, tocsv 
-
+from petl import fromcsv
 table1 = fromcsv('Cars.csv')
 print table1
 

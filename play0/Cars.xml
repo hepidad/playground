@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <root>
   <row>
+    <Id>Id</Id>
+    <Name>Name</Name>
+    <Price>Price</Price>
+  </row>
+  <row>
     <Id>1</Id>
     <Name>Audi</Name>
     <Price>52642</Price>

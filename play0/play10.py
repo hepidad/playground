@@ -1,14 +1,21 @@
 import requests, json
 
-sumber = "http://hepidad.github.io/data/Cars.json"
+#sumber = "http://hepidad.github.io/data/Cars.json"
 
 data_online = requests.get(sumber)
-data_json= json.loads(data_online.content)
 data = data_online.json()
-print data
+data_json= json.loads(data_online.content)
 
-for i in range (0,len(data)):
-	print data[i]['Id']," ",data[i]['Name']
+print data_json
+print type(data_json)
+print data_json[3]['Name']
+print "===="
+data = data_online.json()
+print data 
+print type(data)
+print data[3]['Name']
+#for i in range (0,len(data)):
+#	print data[i]['Id']," ",data[i]['Name']
 
 
 #print idcars
